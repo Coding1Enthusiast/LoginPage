@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signup-modal container">
+            <center> <h2>Sign Up</h2></center>
+             <div class="password-error error small-text"></div>
+             <form action="">
+                 <div class="fullname-input-area input-area">
+                     <label for="fullname">
+                         <i class="fa fa-user icon" id="user-icon"></i>
+                         <input type="text" id="fullname" autocomplete="name" placeholder="Enter Full Name">
+                     </label>
+                 </div>
+                 <div class="fullname-error error small-text"></div>
+
+                 <div class="email-input-area input-area">
+                     <label for="email">
+                         <i class="fa fa-user icon" id="email-icon"></i>
+                         <input type="email" id="email" autocomplete="email" placeholder="Enter Email">
+                     </label>
+                 </div>
+                 <div class="email-text small-text"></div>
+                 
+                 <div class="password-input-area input-area">
+                     <label for="password">
+                         <i class="fa fa-user icon" id="password-icon"></i>
+                         <input type="password" id="new-password" placeholder="Password">
+                     </label>
+                 </div>
+                 <div class="new-password-text small-text"></div>
+
+                 <div class="password-input-area input-area">
+                     <label for="password">
+                         <i class="fa fa-user icon" id="password-icon"></i>
+                         <input type="password" id="confirm-password" placeholder="Confirm Password">
+                     </label>
+                 </div>
+                 <div class="password-confirm-text small-text"></div>
+ 
+                 <div class="actions">
+                     <button type="button" class="button" id="closeBtn">CLOSE</button>
+                     <button type="button" class="button" id="signupBtn">SUBMIT</button>
+                 </div>                
+</body>
+</html>

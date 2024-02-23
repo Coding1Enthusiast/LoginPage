@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+        <div class="main container">
+            <h1>LOGIN</h1>
+            <form action="">
+                <div class="username-input-area input-area">
+                    <label for="username">
+                        <i class="fa fa-user icon" id="user-icon"></i>
+                        <input type="email" id="username" autocomplete="username" placeholder="Username">
+                    </label>
+                </div>
+                <div class="username-error error small-text"></div>
+                <div class="password-input-area input-area">
+                    <label for="password">
+                        <i class="fa fa-user icon" id="password-icon"></i>
+                        <input type="password" id="password" autocomplete="current-password" placeholder="Password">
+                    </label>
+                </div>
+                <div class="password-error error small-text"></div>
+                <center><a href="#" class="forgot-password small-text">Forgot Password?</a></center>
+
+                <div class="actions">
+                    <button type="button" class="button" id="loginBtn">LOGIN</button>
+                    <p class="small-text">Don't have an account? <a href="signup.html">Sign up</a></p>
+                </div>                
+            </form>
+        </div>
+
+
+        <div class="forgotpassword-modal container">
+           <center> <h2>Reset Password</h2></center>
+            <div class="password-error error small-text"></div>
+            <form action="">
+                <div class="username-input-area input-area">
+                    <label for="username">
+                        <i class="fa fa-user icon" id="user-icon"></i>
+                        <input type="email" id="email" autocomplete="email" placeholder="Enter Email">
+                    </label>
+                </div>
+                <div class="email-text small-text"></div>
+                <div class="username-error error small-text"></div>
+                <div class="password-input-area input-area">
+                    <label for="password">
+                        <i class="fa fa-user icon" id="password-icon"></i>
+                        <input type="password" id="new-password" placeholder="Enter New Password">
+                    </label>
+                </div>
+                <div class="new-password-text small-text"></div>
+                <div class="password-input-area input-area">
+                    <label for="password">
+                        <i class="fa fa-user icon" id="password-icon"></i>
+                        <input type="password" id="confirm-password" placeholder="Confirm Password">
+                    </label>
+                </div>
+                <div class="password-confirm-text small-text"></div>
+
+                <div class="actions">
+                    <button type="button" class="button" id="closeBtn">CLOSE</button>
+                    <button type="button" class="button" id="resetBtn">RESET</button>
+                </div>                
+            </form> 
+        </div>
+
+        <div class="reset-password-modal container">
+            <center><h2>A link to reset your password is sent to your mail id.</h2>
+            <img src="Images/icons8-check-50.png" alt=""></center>
+         </div>
+        <script src="script.js"></script>
+             </form> 
+         </div>
+</body>
+</html>
